@@ -21,9 +21,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"weiToEth\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Converter.sol\":\"Converter\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Converter.sol\":{\"keccak256\":\"0xec2c73cf2f569d85ee36d72c96baaf73f3ed6bd2fbd3df9d135fc6334de620d9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://28ef91ef86b69ddf971a13d5b0ae041daf6126bdddd79bd55e25b996024f0303\",\"dweb:/ipfs/QmR91gn348SBwM37qu3hWn3xWsGtrHN2HTLbda7WeNLUxD\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561000f575f80fd5b506101968061001d5f395ff3fe608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f99a910c1461002d575b5f80fd5b610047600480360381019061004291906100b0565b61005d565b60405161005491906100ea565b60405180910390f35b5f670de0b6b3a7640000826100729190610130565b9050919050565b5f80fd5b5f819050919050565b61008f8161007d565b8114610099575f80fd5b50565b5f813590506100aa81610086565b92915050565b5f602082840312156100c5576100c4610079565b5b5f6100d28482850161009c565b91505092915050565b6100e48161007d565b82525050565b5f6020820190506100fd5f8301846100db565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b5f61013a8261007d565b91506101458361007d565b92508261015557610154610103565b5b82820490509291505056fea264697066735822122063d9ae4fa0111127b32184324ddc7cc6e164db072e6f677e172d589a6b45878a64736f6c63430008140033",
-  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f99a910c1461002d575b5f80fd5b610047600480360381019061004291906100b0565b61005d565b60405161005491906100ea565b60405180910390f35b5f670de0b6b3a7640000826100729190610130565b9050919050565b5f80fd5b5f819050919050565b61008f8161007d565b8114610099575f80fd5b50565b5f813590506100aa81610086565b92915050565b5f602082840312156100c5576100c4610079565b5b5f6100d28482850161009c565b91505092915050565b6100e48161007d565b82525050565b5f6020820190506100fd5f8301846100db565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b5f61013a8261007d565b91506101458361007d565b92508261015557610154610103565b5b82820490509291505056fea264697066735822122063d9ae4fa0111127b32184324ddc7cc6e164db072e6f677e172d589a6b45878a64736f6c63430008140033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"weiToEth\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Converter.sol\":\"Converter\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Converter.sol\":{\"keccak256\":\"0x4376a9291d3b80bd1479656e8303e958cfc4044bd255d2fb723fdd990c7225f0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c096c51a28cc230405c1ce717a4b4b2a4033297447828a5374843c00fc59ba6e\",\"dweb:/ipfs/QmU5Eh73p3TSb9831BgHQyw86aCG1WNLjjp9FkdnrSJWfJ\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561000f575f80fd5b506101968061001d5f395ff3fe608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f99a910c1461002d575b5f80fd5b610047600480360381019061004291906100b0565b61005d565b60405161005491906100ea565b60405180910390f35b5f670de0b6b3a7640000826100729190610130565b9050919050565b5f80fd5b5f819050919050565b61008f8161007d565b8114610099575f80fd5b50565b5f813590506100aa81610086565b92915050565b5f602082840312156100c5576100c4610079565b5b5f6100d28482850161009c565b91505092915050565b6100e48161007d565b82525050565b5f6020820190506100fd5f8301846100db565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b5f61013a8261007d565b91506101458361007d565b92508261015557610154610103565b5b82820490509291505056fea2646970667358221220d6bbaff9ea76b3590662f0991b0cd0dee6fe328691a9bf73d026ca9f92cab85964736f6c63430008140033",
+  "deployedBytecode": "0x608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f99a910c1461002d575b5f80fd5b610047600480360381019061004291906100b0565b61005d565b60405161005491906100ea565b60405180910390f35b5f670de0b6b3a7640000826100729190610130565b9050919050565b5f80fd5b5f819050919050565b61008f8161007d565b8114610099575f80fd5b50565b5f813590506100aa81610086565b92915050565b5f602082840312156100c5576100c4610079565b5b5f6100d28482850161009c565b91505092915050565b6100e48161007d565b82525050565b5f6020820190506100fd5f8301846100db565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b5f61013a8261007d565b91506101458361007d565b92508261015557610154610103565b5b82820490509291505056fea2646970667358221220d6bbaff9ea76b3590662f0991b0cd0dee6fe328691a9bf73d026ca9f92cab85964736f6c63430008140033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -1087,9 +1087,9 @@
       "name": "#utility.yul"
     }
   ],
-  "sourceMap": "62:181:0:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "62:181:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;88:152;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;139:4;172:19;163:6;:28;;;;:::i;:::-;156:35;;88:152;;;:::o;:117:2:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:222::-;1242:4;1280:2;1269:9;1265:18;1257:26;;1293:71;1361:1;1350:9;1346:17;1337:6;1293:71;:::i;:::-;1149:222;;;;:::o;1377:180::-;1425:77;1422:1;1415:88;1522:4;1519:1;1512:15;1546:4;1543:1;1536:15;1749:185;1789:1;1806:20;1824:1;1806:20;:::i;:::-;1801:25;;1840:20;1858:1;1840:20;:::i;:::-;1835:25;;1879:1;1869:35;;1884:18;;:::i;:::-;1869:35;1926:1;1923;1919:9;1914:14;;1749:185;;;;:::o",
-  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.8.13;\r\n\r\ncontract Converter {\r\n    function weiToEth(uint amount) public pure returns(uint) {\r\n        return amount / 1000000000000000000; // 1 ETH = 1,000,000,000,000,000,000 WEI\r\n    }\r\n}",
+  "sourceMap": "69:181:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "69:181:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;95:152;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;146:4;179:19;170:6;:28;;;;:::i;:::-;163:35;;95:152;;;:::o;88:117:2:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:222::-;1242:4;1280:2;1269:9;1265:18;1257:26;;1293:71;1361:1;1350:9;1346:17;1337:6;1293:71;:::i;:::-;1149:222;;;;:::o;1377:180::-;1425:77;1422:1;1415:88;1522:4;1519:1;1512:15;1546:4;1543:1;1536:15;1749:185;1789:1;1806:20;1824:1;1806:20;:::i;:::-;1801:25;;1840:20;1858:1;1840:20;:::i;:::-;1835:25;;1879:1;1869:35;;1884:18;;:::i;:::-;1869:35;1926:1;1923;1919:9;1914:14;;1749:185;;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.8.19 <0.9.0;\r\n\r\ncontract Converter {\r\n    function weiToEth(uint amount) public pure returns(uint) {\r\n        return amount / 1000000000000000000; // 1 ETH = 1,000,000,000,000,000,000 WEI\r\n    }\r\n}",
   "sourcePath": "D:\\code\\solidity\\simple-contract\\contracts\\Converter.sol",
   "ast": {
     "absolutePath": "project:/contracts/Converter.sol",
@@ -1108,10 +1108,13 @@
           "solidity",
           ">=",
           "0.8",
-          ".13"
+          ".19",
+          "<",
+          "0.9",
+          ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "33:25:0"
+        "src": "33:32:0"
       },
       {
         "abstract": false,
@@ -1125,14 +1128,14 @@
           14
         ],
         "name": "Converter",
-        "nameLocation": "71:9:0",
+        "nameLocation": "78:9:0",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
               "id": 12,
               "nodeType": "Block",
-              "src": "145:95:0",
+              "src": "152:95:0",
               "statements": [
                 {
                   "expression": {
@@ -1151,7 +1154,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "163:6:0",
+                      "src": "170:6:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1168,14 +1171,14 @@
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "172:19:0",
+                      "src": "179:19:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_1000000000000000000_by_1",
                         "typeString": "int_const 1000000000000000000"
                       },
                       "value": "1000000000000000000"
                     },
-                    "src": "163:28:0",
+                    "src": "170:28:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1184,7 +1187,7 @@
                   "functionReturnParameters": 7,
                   "id": 11,
                   "nodeType": "Return",
-                  "src": "156:35:0"
+                  "src": "163:35:0"
                 }
               ]
             },
@@ -1194,7 +1197,7 @@
             "kind": "function",
             "modifiers": [],
             "name": "weiToEth",
-            "nameLocation": "97:8:0",
+            "nameLocation": "104:8:0",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 4,
@@ -1205,10 +1208,10 @@
                   "id": 3,
                   "mutability": "mutable",
                   "name": "amount",
-                  "nameLocation": "111:6:0",
+                  "nameLocation": "118:6:0",
                   "nodeType": "VariableDeclaration",
                   "scope": 13,
-                  "src": "106:11:0",
+                  "src": "113:11:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1219,7 +1222,7 @@
                     "id": 2,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "106:4:0",
+                    "src": "113:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1228,7 +1231,7 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "105:13:0"
+              "src": "112:13:0"
             },
             "returnParameters": {
               "id": 7,
@@ -1242,7 +1245,7 @@
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 13,
-                  "src": "139:4:0",
+                  "src": "146:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1253,7 +1256,7 @@
                     "id": 5,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "139:4:0",
+                    "src": "146:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1262,22 +1265,22 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "138:6:0"
+              "src": "145:6:0"
             },
             "scope": 14,
-            "src": "88:152:0",
+            "src": "95:152:0",
             "stateMutability": "pure",
             "virtual": false,
             "visibility": "public"
           }
         ],
         "scope": 15,
-        "src": "62:181:0",
+        "src": "69:181:0",
         "usedErrors": [],
         "usedEvents": []
       }
     ],
-    "src": "33:210:0"
+    "src": "33:217:0"
   },
   "compiler": {
     "name": "solc",
@@ -1285,7 +1288,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-07-20T16:57:34.187Z",
+  "updatedAt": "2023-07-20T17:35:23.391Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
