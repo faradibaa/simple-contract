@@ -4,3 +4,7 @@ truffle console --network ganache
 let instance = await SimpleContract.deployed()
 
 let accounts = await web3.eth.getAccounts()
+
+let balance = await instance.getBalanceInEth(accounts[0])
+
+balance.toNumber()
