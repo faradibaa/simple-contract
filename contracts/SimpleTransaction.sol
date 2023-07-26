@@ -3,8 +3,6 @@ pragma solidity >=0.8.19 <0.9.0;
 import "./Converter.sol";
 
 contract SimpleContract {
-    Converter converter; // contract from Converter.sol
-
     address sender;
 
     constructor() {
@@ -12,7 +10,7 @@ contract SimpleContract {
     }
 
     function getBalanceInEth(address addr) public view returns(uint) {
-        return converter.weiToEth(uint(addr.balance));
+        return Converter.weiToEth(uint(addr.balance));
         //return uint(addr.balance) / 1000000000000000000;
     }
 
