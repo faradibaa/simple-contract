@@ -13,8 +13,8 @@ contract SimpleContract {
         return Converter.weiToEth(uint(addr.balance));
     }
 
-    function sendCoin(address payable receiver, uint sentCoin) public returns(bool) {
-        if(getBalanceInEth(sender) < sentCoin) return false;
-        return receiver.send(sentCoin);
+    function sendCoin(address payable receiver, uint sentCoin) public  {
+        //if(getBalanceInEth(sender) < sentCoin) return false;
+        receiver.transfer(sentCoin);
     }
 }

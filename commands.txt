@@ -8,3 +8,5 @@ let accounts = await web3.eth.getAccounts()
 let balance = await instance.getBalanceInEth(accounts[0])
 
 balance.toNumber()
+
+let sending = await instance.sendCoin(accounts[2], 50000000000000000)
