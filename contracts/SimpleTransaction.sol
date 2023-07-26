@@ -11,7 +11,6 @@ contract SimpleContract {
 
     function getBalanceInEth(address addr) public view returns(uint) {
         return Converter.weiToEth(uint(addr.balance));
-        //return uint(addr.balance) / 1000000000000000000;
     }
 
     function sendCoin(address payable receiver, uint sentCoin) public returns(bool) {
